@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(34, 133, 179);
+    height: 100vh;
+}
+
+.header{
+    font-size:60px;
+    color: rgb(227, 227, 238);
+    margin-bottom: 40px;
+}
+
+.container {
+   width: 500px;   
+   background-color: rgb(243, 239, 243);  
+   padding: 1rem;
+   margin-bottom: 300px;
+  
+  
+}
+
+.form-todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: .5rem;
+}
+
+.form-todo input{
+    padding: .5rem;
+}
+
+.submit-button{
+    padding: .6rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: rgb(106, 160, 240);
+}
+
+select{
+    padding: .5rem;
+}
+
+.todo{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    margin: 1rem;
+    transition: transform 300ms;
+}
+
+.container .todo .fa-check{
+    color: rgb(11, 91, 211);
+    cursor: pointer;
+}
+
+.container .todo .fa-trash{
+    color: #042991;
+    cursor: pointer;
+}
+
+.checked{
+    background: rgb(153,235, 153) !important;
+}
+
+.fall{
+    transform: translateY(5rem) rotate(20deg);
+}
+
+
+
+
+
+
